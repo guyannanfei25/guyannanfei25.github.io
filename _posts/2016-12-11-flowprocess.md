@@ -6,8 +6,8 @@ description: 我写的一个 Linux 下开源的流式程序
 keywords: Linux, 开源, flow, process
 ---
 
-Dispatcher
----
+*Dispatcher*
+
 1.初衷
 --
 golang天生是为了解决并发问题，它的诞生使得人们更容易解决并发问题，并且极大了降低了编程门槛，提高了编程效率。但是对于初学者还是很难很好的进行并发编程。
