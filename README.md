@@ -1,54 +1,79 @@
-[Yonsm.NET](http://www.yonsm.net) 的博客
+# 码志
 
-本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/Yonsm/NET)，博客模板修改自 [WebFrog](http://webfrogs.me/) 的博客。本博客模板已经全部通用化，使用极其简单。
+我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
 
+## 概览
 
-## 安装
+<!-- vim-markdown-toc GFM -->
+* [效果预览](#效果预览)
+* [Fork 指南](#fork-指南)
+* [贴心提示](#贴心提示)
+* [经验与思考](#经验与思考)
+* [致谢](#致谢)
 
-1. [Fork](https://github.com/Yonsm/NET/fork) [http://github.com/Yonsm/NET](http://github.com/Yonsm/NET)。
+<!-- vim-markdown-toc -->
 
-2. 所有个人相关的配置都在 _config.yml 中，修改其中内容：
-  * markdown: rdiscount ***（建议不修改）***
-  * permalink: /:title/ ***固定链接（建议别修改）***
-	* url: http://yonsm.net ***网站链接***
-	* name: Yonsm.NET ***网站名***
-	* author: Yonsm ***作者***
-	* qq: 123018 ***用于关于页面的QQ号(可选)***
-	* email: Yonsm@msn.com ***电子邮件***
-	* duoshuo: yonsm ***多说评论帐号***
-	* beian:  浙ICP备12026616号 ***备案号(可选)***
-	* cnzz: 119959 ***站长统计(可选)***
-	* weibo: 1885061391 ***用于关于页面微博帐号***
-	* github: Yonsm ***GitHub帐号***
-	* pygments: true ***语法高亮（建议不修改）***
-	* safe: true ***安全模式（建议不修改）***
-	* paginate: 20 ***首页分页***
-	* truncate: 300 ***首页文章摘要字数（省略则不显示摘要，摘要风格尚需进一步美化，建议不使用）***
-	* about: "这里是我的博客。" ***关于介绍页面的内容***
+## 效果预览
 
-3. 删除掉 _posts 目录下的所有文章，然后创建你的文章即可。
+**[在线预览 &rarr;](http://mazhuang.org)**
 
-所有安装操作均可在浏览器中线操作，不需要在本地做任何额外工作。
+![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
 
-## 迁移
+## Fork 指南
 
-**如果你不需要迁移，请跳过此步骤**
+Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
 
-如果你之前在使用 WordPress，可以非常完美地导入到此博客中，分类、标签、评论都能完美迁移。
+1. 正确设置项目名称与分支。
 
-1. 安装 多说 插件来转移评论。
-2. 安装 WP Slug 插件并批量编辑更新文章，以便生成英文的固定链接。
-3. 可以使用 exitwp 导入文章。
-4. 用文本编辑器批量替换所有导出文章中的 **wordpress_id:** 为 **thread:**，以便关联文章和多说评论。
-5. 如果以前的 WordPress 固定链接是 **/post/123** 这种格式，迁移后链接依然能正常工作（实际上是 404 页面做了转跳处理）。
+   按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
 
-迁移需要在本地座比较多的准备工作，详细步骤略过，请仔细操作。
+2. 修改域名。
 
-## 使用
+   如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
 
-* 点击 Powered by 里面的 **Po** 撰写新文章；点击 **ed** 编辑当前页面。
-* 虽然可以用在线的编辑器来编辑和发布文章，但为了批量修改方便，还是推荐 Check Out 后修改。
+3. 修改配置。
 
-Yonsm
+   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle、duoshuo 和 Disqus 的用户名等。
 
-2013-07-17
+   **注意：** 因为 Disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus\_username 修改成你自己的。我对该缺陷的记录见 [Issues#2][3]。
+
+4. 删除我的文章与图片。
+
+   如下文件夹中除了 template.md 文件外，都可以全部删除，然后添加你自己的内容。
+
+   * \_posts 文件夹中是我已发布的博客文章。
+   * \_drafts 文件夹中是我尚未发布的博客文章。
+   * \_wiki 文件夹中是我已发布的 wiki 页面。
+   * images 文件夹中是我的文章和页面里使用的图片。
+
+5. 修改「关于」页面。
+
+   pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息。
+
+## 贴心提示
+
+1. 排版建议遵照一定的规范，推荐 [中文文案排版指北（简体中文版）][1]。
+
+2. 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
+
+## 经验与思考
+
+* 简约，尽量每个页面都不展示多余的内容。
+
+* 有时一图抵千言，有时可能只会拖慢网页加载速度。
+
+* 言之有物，不做无痛之呻吟。
+
+* 如果写技术文章，那先将技术原理完全理清了再开始写，一边摸索技术一边组织文章效率较低。
+
+* 杜绝难断句、难理解的长句子，如果不能将其拆分成几个简洁的短句，说明脑中的理解并不清晰。
+
+* 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
+
+## 致谢
+
+本博客外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
+
+[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
+[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
+[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
