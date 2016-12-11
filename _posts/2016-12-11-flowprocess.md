@@ -2,7 +2,7 @@
 layout: post
 title: flowprocess 一个轻量级的流式处理组件
 categories: 开源
-description: 我写的一个Linux下开源的流式程序
+description: 我写的一个 Linux 下开源的流式程序
 keywords: Linux, 开源, flow, process
 ---
 
