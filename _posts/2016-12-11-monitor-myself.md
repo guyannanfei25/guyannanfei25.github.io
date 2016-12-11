@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monitor——一个轻量级监测软件的编写
+title: Monitor 一个轻量级监测软件的编写
 categories: 开源
 description: 我写的一个Linux下开源的流量监控程序
 keywords: Linux, 开源, Monitor
