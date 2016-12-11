@@ -1,5 +1,11 @@
-Monitor——一个轻量级监测软件的编写
-===
+---
+layout: post
+title: Monitor——一个轻量级监测软件的编写
+categories: 开源
+description: 我写的一个Linux下开源的流量监控程序
+keywords: Linux, 开源, Monitor
+---
+
 &nbsp;&nbsp;&nbsp;&nbsp;为什么要写这个软件呢？很简单，之前的[Readme](https://github.com/guyannanfei25/BLOG/blob/master/Readme.md)已经说过了，因为实验室项目需要个直观的效果展示，虽然我们生活在一个伟大的时代：`互联网方便了我们的生活，降低了我们的学习成本和门槛，各种开源软件层出不穷`，但是何时我的竟然没有。最好用的就是iptraf。在Ubuntu任何源下面都可以下载的到。它有以下优点：
 
 * 比较小巧
