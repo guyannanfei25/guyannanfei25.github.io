@@ -17,8 +17,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: Jiujiang Yuan
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+organization: Unkown, Inc.
+organization_url: https://guyannanfei25.github.io
 location: Beijing, China
 email: jiujiangyuan@qq.com
 
@@ -97,7 +97,7 @@ comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
 duoshuo_username: TODO
-disqus_username: TODO
+disqus_username: jiujiangyuan
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
 
