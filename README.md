@@ -1,6 +1,6 @@
-# 码志
+# 闲言碎语
 
-我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
+我的个人博客：<http://www.guyannanfei25.site>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -15,7 +15,7 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://mazhuang.org)**
+**[在线预览 &rarr;](http://www.guyannanfei25.site)**
 
 ![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
 
