@@ -1,7 +1,7 @@
 ---
 layout: post
 title: wubi 安装 Ubuntu 一些经验
-categories: wubi ubuntu
+categories: ubuntu
 description: wubi 安装 ubuntu 经验
 keywords: wubi, ubuntu, 经验
 ---
