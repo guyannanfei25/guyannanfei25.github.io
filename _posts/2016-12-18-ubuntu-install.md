@@ -35,4 +35,5 @@ keywords: wubi, ubuntu, 经验
 * 禁用独显
 
 * ThunderBird Block Remote Content in Messages
+
 > 选择 Edit -> Perference -> Privacy -> Allow remote content in messages
