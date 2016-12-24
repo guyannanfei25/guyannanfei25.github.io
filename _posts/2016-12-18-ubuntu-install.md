@@ -26,8 +26,13 @@ keywords: wubi, ubuntu, 经验
 
 * 将终端显示改为相对路径
 
+> refer:http://www.crifan.com/ubuntu_terminal_only_show_current_folder_path/
+
 * 安装chrome
 
 * 启动工作区
 
 * 禁用独显
+
+* ThunderBird Block Remote Content in Messages
+> 选择 Edit -> Perference -> Privacy -> Allow remote content in messages
