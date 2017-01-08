@@ -27,8 +27,11 @@ keywords: wubi, ubuntu, 经验
 * 将终端显示改为相对路径
 
 > refer:http://www.crifan.com/ubuntu_terminal_only_show_current_folder_path/
+> .bashrc中PS1变量中\w改为\W
 
 * 安装chrome
+
+* 将chrome更改为bing搜索
 
 * 启动工作区
 
