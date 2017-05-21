@@ -68,8 +68,12 @@ DOM 是关于如何获取，修改，添加或删除HTML的标准**。
 
 讲到这里基本也差不多了， [项目地址](https://github.com/guyannanfei25/lianjia_spider)
 > Usage of grab_ershou:
+
 >   -n int
+
 >         grab max pages (default 100)
+
 >   -p string
+
 >         data store path (default "/tmp/")
 里面只有二进制文件，golang源码不超过60行，感兴趣的可以试下。
