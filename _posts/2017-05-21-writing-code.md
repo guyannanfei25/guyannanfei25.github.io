@@ -23,17 +23,16 @@ keywords: golang, 爬虫
 <img src="/images/blog/htmltree.gif" alt=""/><br />
 （示例图）
 </div>
-HTML DOM 定义了所有HTML元素的*对象*和-属性-，以及访问它们的*方法*。换言之，**HTML
+HTML DOM 定义了所有HTML元素的*对象*和*属性*，以及访问它们的*方法*。换言之，**HTML
 DOM 是关于如何获取，修改，添加或删除HTML的标准**。
 * HTML DOM 中所有事物都是节点。
-** 整个文档是文档节点
-** 每个 HTML 元素是元素节点
-** 元素内的文本是文本节点
-** 每个 HTML 属性是属性节点
-** 注释是注释节点
+ - 整个文档是文档节点
+ - 每个 HTML 元素是元素节点
+ - 元素内的文本是文本节点
+ - 每个 HTML 属性是属性节点
+ - 注释是注释节点
 
-节点树中节点是由层级关系的，父、子、同胞等。
-
+* 节点树中节点是由层级关系的，父、子、同胞等。
 * 方法是我们可以在节点上执行的动作。
 * 属性是该节点不同维度的值。
 * 对DOM节点访问，可以通过tag、class等。
@@ -43,6 +42,7 @@ DOM 是关于如何获取，修改，添加或删除HTML的标准**。
 
 通过 [jQuery selector](http://api.jquery.com/category/selectors/) 可以准确的选择
 并操作我们所需要的html节点。jQuery selector 是借鉴的 [css selector](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html). 
+
 |选择器|含义|
 |------|----|
 |*|通用选择器，匹配所有元素|
@@ -53,12 +53,14 @@ DOM 是关于如何获取，修改，添加或删除HTML的标准**。
 ## 开工
 
 做好那么多铺垫，可以开工。
+
 1，分析链家二手房网页源码，经过查看源码，发现房屋信息在class="clear"的li节点中。
 <div align="center">
 <img src="/images/blog/lianjia.png" alt=""/><br />
 （链家源码）
 </div>
 通过 selector 语法可以很轻松的获取所需元素的信息。li.clear
+
 2，golang html 解析库推荐：`github.com/PuerkitoBio/goquery`，一个语言欢迎程度，
 跟它的库丰富程度正相关。github上一大堆优秀的人无偿的编写了丰富的golang库，确实
 要感谢伟大的开源思想，让现在科技那么进步，编程那么简单。另一方面，这也是以牺牲
